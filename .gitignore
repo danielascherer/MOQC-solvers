@@ -1,0 +1,59 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+.pytest_cache/
+.cache/
+.envrc
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+
+# ==============================
+# Logs and temporary files
+# ==============================
+
+logs/
+*.log
+*.tmp
+*.out
+*.err
+
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+
+# ==============================
+# Gurobi
+# ==============================
+
+*.lp
+*.mps
+*.sol
+gurobi.log
+
+# ==============================
+# Results / outputs
+# ==============================
+
+results/
+output/
+outputs/
+
